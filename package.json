@@ -1,0 +1,21 @@
+{
+  "name": "basic-card.css",
+  "version": "1.0.0",
+  "description": "css for creating generic cards",
+  "repository": "https://github.com/Brecert/basic-card.css.git",
+  "author": "brecert <11599528+Brecert@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "sass src/:dist/",
+    "lint": "stylelint \"src/*.scss\"",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "postcss": "^7.0.17",
+    "rimraf": "^2.6.3",
+    "sass": "^1.22.7",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-scss": "^3.9.2"
+  }
+}

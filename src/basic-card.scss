@@ -1,0 +1,50 @@
+.basic-card {
+  --card-padding: 20px;
+  --card-color: #333;
+
+  overflow: hidden;
+  white-space: pre-wrap;
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
+
+  // half the padding on the top
+  // for every div below .basic-card-header
+  & > .basic-card-header ~ div {
+    padding-top: 0;
+  }
+}
+
+.basic-card-image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* special */
+.basic-card-hr {
+  background: var(--card-color, #333);
+  height: 5px;
+}
+
+/* containers */
+.basic-card-header,
+.basic-card-content {
+  padding: var(--card-padding);
+}
+
+/* content */
+.basic-card-subtitle,
+.basic-card-description {
+  color: #666;
+}
+
+.basic-card-subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.basic-card-description {
+  font-size: 16px;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+}
