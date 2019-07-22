@@ -3,7 +3,6 @@
   --card-color: #333;
 
   overflow: hidden;
-  white-space: pre-wrap;
   font-family: "Helvetica Neue", "Roboto", sans-serif;
 
   // half the padding on the top
@@ -32,6 +31,12 @@
 }
 
 /* content */
+.basic-card-title,
+.basic-card-subtitle,
+.basic-card-description {
+  white-space: pre-line;
+}
+
 .basic-card-subtitle,
 .basic-card-description {
   color: #666;

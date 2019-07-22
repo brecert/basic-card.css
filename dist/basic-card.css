@@ -2,7 +2,6 @@
   --card-padding: 20px;
   --card-color: #333;
   overflow: hidden;
-  white-space: pre-wrap;
   font-family: "Helvetica Neue", "Roboto", sans-serif;
 }
 .basic-card > .basic-card-header ~ div {
@@ -28,6 +27,12 @@
 }
 
 /* content */
+.basic-card-title,
+.basic-card-subtitle,
+.basic-card-description {
+  white-space: pre-line;
+}
+
 .basic-card-subtitle,
 .basic-card-description {
   color: #666;
