@@ -5,7 +5,10 @@
   "repository": "https://github.com/Brecert/basic-card.css.git",
   "author": "brecert <11599528+Brecert@users.noreply.github.com>",
   "license": "MIT",
-  "files": "dist/",
+  "files": [
+    "dist/basic-card.css",
+    "dist/basic-card.css.map"
+  ],
   "main": "dist/basic-card.css",
   "browser": "dist/basic-card.css",
   "style": "dist/basic-card.css",
