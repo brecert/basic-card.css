@@ -1,0 +1,42 @@
+<!-- test to make sure the image has no extra padding when alone or with an hr -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>basic-site-card-test</title>
+	<link rel="stylesheet" type="text/css" href="../dist/basic-card.css">
+	<style type="text/css">
+		* {
+		  box-sizing: border-box;
+		}
+
+		html {
+		  font-family: "Helvetica Neue", "Roboto", sans-serif;
+		}
+
+		.basic-card {
+		  margin: auto;
+		  margin-top: 25vh;
+		  width: 300px;
+
+		  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+		  border-radius: 10px;
+		  border: 3px solid rgba(50, 50, 50, 0.12);
+		}
+
+		/* make sure css applied to the style works the way it's intended */
+		.basic-card .basic-card-image {
+		  overflow: hidden;
+		  max-height: 512px;
+		}
+	</style>
+</head>
+<body>
+	<div class="basic-card" style="--card-color: #c68;">
+		<div class="basic-card-image">
+			<img src=".data/256x768.svg">
+		</div>
+		<div class="basic-card-hr"></div>
+	</div>
+</body>
+</html>
