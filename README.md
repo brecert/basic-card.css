@@ -1,7 +1,7 @@
 # basic-card.css
 > css for creating basic cards with only css
 
-## Example
+## Usage
 <p align="center">
   <img width="350px" align="center" src="https://i.imgur.com/QkIfHFk.png" alt="styled card preview" />
 </p>
@@ -11,7 +11,7 @@
 <html>
 <head>
   <title>basic-site-card-test</title>
-  <link rel="stylesheet" type="text/css" href="basic-card.css">
+  <link rel="stylesheet" type="text/css" href="//unpkg.com/basic-card.css">
   <style type="text/css">
     * {
       box-sizing: border-box;
