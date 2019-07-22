@@ -2,9 +2,9 @@
 > css for creating basic cards with only css
 
 ## Example
-<div style="text-align:center">
-<img src="https://i.imgur.com/QkIfHFk.png" alt="styled card preview" width="350px" />
-</div>
+<p align="center">
+  <img width="350px" align="center" src="https://i.imgur.com/QkIfHFk.png" alt="styled card preview" />
+</p>
 
 ```html
 <!DOCTYPE html>
