@@ -1,7 +1,7 @@
 {
   "name": "basic-card.css",
   "version": "1.0.0",
-  "description": "css for creating generic cards",
+  "description": "creating basic cards with only css",
   "repository": "https://github.com/Brecert/basic-card.css.git",
   "author": "brecert <11599528+Brecert@users.noreply.github.com>",
   "license": "MIT",

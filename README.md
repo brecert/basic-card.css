@@ -1,5 +1,5 @@
 # basic-card.css
-> css for creating basic cards with only css
+> creating basic cards with only css
 
 ## Usage
 <p align="center">
