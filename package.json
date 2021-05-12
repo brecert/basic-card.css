@@ -20,7 +20,7 @@
     "clean": "rimraf dist"
   },
   "devDependencies": {
-    "postcss": "^7.0.17",
+    "postcss": "^8.2.10",
     "rimraf": "^2.6.3",
     "sass": "^1.22.7",
     "stylelint": "^10.1.0",
